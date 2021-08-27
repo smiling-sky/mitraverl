@@ -1,7 +1,7 @@
 .first {
 	height: 100vh;
 	min-height: 660px;
-	background-image: url(/img/first-bg.jpg);
+	background-image: url(../../img/first-bg.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -84,7 +84,7 @@
 .search-form__button {
 	width: 18px;
 	height: 18px;
-	background-image: url(/img/search.svg);
+	background-image: url(../../img/search.svg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -132,7 +132,7 @@
 
 	.first__title {
 		font-size: 75px;
-		line-height: 65;
+		line-height: 65px;
 	}
 }
 @media (max-height: 780px) {
@@ -144,7 +144,6 @@
 	}
 	.first__title{
 		font-size: 60px;
-		line-height: 65;
 		margin-bottom: 20px;
 	}
 	.first__descr{
