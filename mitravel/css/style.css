@@ -10,4 +10,6 @@
 @import "./companents/_first.css"; /* стили первого блока */
 @import "./companents/_become.css"; /*  стили блока become */
 @import "./companents/_featured.css";/* стили блока featured */
+@import "./companents/_slider.css";/* стили слайдера */
+
 

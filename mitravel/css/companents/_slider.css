@@ -1,0 +1,112 @@
+.slider-container {
+    overflow-x: hidden;
+    width: 100%;
+    padding: 100px 0;
+    margin-top: 50px;
+}
+
+.featured-videos {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.featured-videos__descr {
+    font-family: 'SFCompactText', sans-serif;
+    margin: 0 auto;
+    max-width: 650px;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: #788692;
+    margin-top: 25px;
+}
+
+.swiper-slide {
+    background: #E3E3E3;
+    border-radius: 8px;
+    min-height: 555px;
+    width: 890px;
+    transition: transform 0.3s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.swiper-slide:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 65%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 50%, rgba(0, 0, 0, 0.461617) 100%);
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.swiper-slide-active {
+    transform: scaleX(1.16) scaleY(1.2);
+    transition: transform 0.3s;
+}
+
+.swiper-slide-active::after {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.slider-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: var(--white-color);
+    position: relative;
+    z-index: 1;
+    padding-left: 32px;
+    padding-bottom: 30px;
+    transition: transform 0.3s;
+    transform: translateY(200px);
+}
+.swiper-slide-active .slider-title{
+    transition: transform 0.3s;
+    transform: translateY(0);
+}
+
+.slide-1 {
+    background-image: url(/img/slide-1.jpg);
+}
+
+.slide-2 {
+    background-image: url(/img/slide-2.jpg);
+}
+
+.slide-3 {
+    background-image: url(/img/slide-3.jpg);
+}
+
+.slide-4 {
+    background-image: url(/img/slide-2.jpg);
+}
+
+.slide-play{
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    width: 95px;
+    height: 95px;
+    background-image: url(/img/Video-play.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.swiper-slide video{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
