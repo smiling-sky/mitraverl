@@ -11,5 +11,7 @@
 @import "./companents/_become.css"; /*  стили блока become */
 @import "./companents/_featured.css";/* стили блока featured */
 @import "./companents/_slider.css";/* стили слайдера */
+@import "./companents/_newsletter.css";/* стили блока newsletter */
+
 
 
