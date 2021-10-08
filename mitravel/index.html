@@ -11,6 +11,22 @@
 
 <body>
 	<div class="site-container">
+		<div class="menu">
+			<nav class="menu__nav">
+				<button class="menu__close btn-reset" aria-label="close menu">
+					<span class="menu__close-line"></span>
+					<span class="menu__close-line"></span>
+				</button>
+				<ul class="menu__list">
+					<li class="menu__item"><a href="#" class="menu__link">Become A Travel</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Features Stories</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Featured Videos</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Newsletter</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Inspirations</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+				</ul>
+			</nav>
+		</div>
 		<header class="header">
 			<div class="container header__container flex">
 				<ul class="header__social social">
@@ -47,6 +63,8 @@
 						</form>
 						<div class="first__slider main-slider">
 							<div class="swiper-container">
+								<button class="first__slider-btn btn-left btn-reset"></button>
+								<button class="first__slider-btn btn-right btn-reset"></button>
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="main-slider__media">
@@ -54,8 +72,13 @@
 										</div>
 										<p class="main-slider__text">wonderful moutain</p>
 									</div>
-									<div class="swiper-slide"></div>
-									<div class="swiper-slide"></div>
+									<div class="swiper-slide">
+										<div class="main-slider__media">
+											<button class="main-slider__play btn-reset"></button>
+											<video src="/videos/Volcano.mp4" muted playsinline></video>
+										</div>
+										<p class="main-slider__text">Volcano</p>
+									</div>
 								</div>
 							</div>
 						</div>

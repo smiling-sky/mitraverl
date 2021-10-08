@@ -71,4 +71,10 @@
     background-color: var(--neptune-color);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    transition: background-color 0.3s;
+}
+
+.subscribe-form__btn:hover{
+    transition: background-color 0.3s;
+	background-color: var(--neptune-hover-color);
 }
